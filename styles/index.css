@@ -142,8 +142,17 @@ article {
         max-width: 90rem;
         padding: 10.25rem 10.31rem;
 
+        gap: 1.88rem;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto auto;
+    }
+
+    .article__title {
+        margin-bottom: 1.5rem;
+    }
+    .purple-bg .article__title,
+    .lightblue-bg .article__title {
+        margin-bottom: 1rem;
     }
 
     .purple-bg {
