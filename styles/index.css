@@ -67,7 +67,7 @@ article {
 .article__header {
     display: flex;
     gap: 1.06rem;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-bottom: 1.12rem;
 }
 .article__header-info {
@@ -160,6 +160,7 @@ article {
     }
 
     .left, .dark-bg {
+        padding-top: 1.5rem;
         padding-bottom: 1.62rem;
     }
 
